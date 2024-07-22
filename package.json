@@ -2,13 +2,18 @@
     "devDependencies": {
         "eslint": "^9.7.0",
         "eslint-config-prettier": "^9.1.0",
-        "globals": "^15.8.0"
+        "globals": "^15.8.0",
+        "prettier": "^3.3.3",
+        "prettier-plugin-go-template": "^0.0.15"
     },
     "prettier": {
         "trailingComma": "es5",
         "tabWidth": 4,
         "semi": false,
         "singleQuote": true,
-        "proseWrap": "always"
+        "proseWrap": "always",
+        "plugins": [
+            "prettier-plugin-go-template"
+        ]
     }
 }
