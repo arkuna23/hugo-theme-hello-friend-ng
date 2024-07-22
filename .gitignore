@@ -36,3 +36,5 @@ Temporary Items
 
 # customize Headers whiteout touch git submodule.
 layouts/partials/extra-head.html
+
+node_modules/
